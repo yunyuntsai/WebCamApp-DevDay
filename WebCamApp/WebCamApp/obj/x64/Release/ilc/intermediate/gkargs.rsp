@@ -1,0 +1,11 @@
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in\FontAwesome.UWP.dll"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in\Microsoft.WindowsAzure.Storage.dll"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in\Newtonsoft.Json.dll"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in\WebCamApp.exe"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in\WriteableBitmapEx.WinRT.dll"
+/Lib:"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.2\tools\x64\ilc\lib\Private"
+/WinMD:"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"a0edd5c6-f3cd-46dc-b0fc-994e3591d572","IsOptedIn":true,"ProcessStartTime":636630896599782213,"UserId":"3eb8a765-1e33-43ae-8a14-db889abc5e24"}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.2\tools\LibraryXML"
+/RunOnlyPreDR

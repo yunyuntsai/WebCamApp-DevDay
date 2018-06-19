@@ -1,0 +1,21 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\split.pri"			"resources.pri"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\WebCamApp.xr.xml"			"WebCamApp.xr.xml"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Properties\Default.rd.xml"			"Properties\Default.rd.xml"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\FontAwesome.UWP\FontAwesome.otf"			"FontAwesome.UWP\FontAwesome.otf"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Wide310x150Logo.scale-200.png"			"Assets\Wide310x150Logo.scale-200.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\StoreLogo.png"			"Assets\StoreLogo.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Square44x44Logo.scale-200.png"			"Assets\Square44x44Logo.scale-200.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Square44x44Logo.targetsize-24_altform-unplated.png"			"Assets\Square44x44Logo.targetsize-24_altform-unplated.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Background640x480.png"			"Assets\Background640x480.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Back640x480.png"			"Assets\Back640x480.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\Back1280x720.png"			"Assets\Back1280x720.png"
+"C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\obj\x64\Debug\PackageLayout\Assets\2018-05-24-10-34-16.png"			"Assets\2018-05-24-10-34-16.png"

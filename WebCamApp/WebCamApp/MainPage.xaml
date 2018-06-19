@@ -1,0 +1,149 @@
+﻿<Page
+    x:Class="WebCamApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WebCamApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:fa="using:FontAwesome.UWP"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!--<Storyboard x:Name="step2ColorStoryboard">
+            <ColorAnimation Storyboard.TargetName="step2Circle"
+                            Storyboard.TargetProperty="(Ellipse.Fill).(SolidColorBrush.Color)" 
+                            From="#0078D7" To="#7FFFFFFF" AutoReverse="True" Duration="0:0:.8" RepeatBehavior="Forever" />
+        </Storyboard>-->
+
+      
+
+        <AcrylicBrush x:Key="MyAcrylicBrush"
+        BackgroundSource="Backdrop"
+        TintOpacity="0.1" TintColor="#FF000000" />
+
+
+        <AcrylicBrush x:Key="MyAcrylicBrush2"
+        BackgroundSource="Backdrop"
+        TintOpacity="0" TintColor="#FF000000" />
+
+        <AcrylicBrush x:Key="MyAcrylicBrush3"
+        BackgroundSource="Backdrop"
+        TintOpacity="0.1" TintColor="#FFFFFF" />
+    </Page.Resources>
+    <Grid >
+       
+        <StackPanel Name="RegisterArea">
+            <Popup x:Name="PopUpWidget3" LayoutUpdated="OnLayoutUpdated3">
+                <Popup.ChildTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition />
+                    </TransitionCollection>
+                </Popup.ChildTransitions>
+                <StackPanel x:Name="gdChild3" >
+                    <StackPanel>
+                        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" MaxHeight="120" MaxWidth="120">
+                            <Canvas Width="100" Height="100">
+                                <Ellipse Name="NumCircle" Fill="#33000000" Stroke="#EBEBEB" StrokeThickness="5" VerticalAlignment="top" Width="100" Height="100"></Ellipse>
+                                <TextBlock Name="popUpDisplayText3"  FontSize="50" Foreground="#FFFFFF" Canvas.Left="35" Canvas.Top="15" />
+                            </Canvas>
+                        </Viewbox>
+                    </StackPanel>
+                </StackPanel>
+            </Popup>
+
+            <Popup x:Name="PopUpWidget2" LayoutUpdated="OnLayoutUpdated1">
+                <Popup.ChildTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition />
+                    </TransitionCollection>
+                </Popup.ChildTransitions>
+                <StackPanel x:Name="gdChild2" >
+                    <StackPanel>
+                        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" >
+                            <Canvas Width="100" Height="100">
+                                <!--<Rectangle Name="step3Circle" Fill="#33000000" Stroke="#EBEBEB" StrokeThickness="0" VerticalAlignment="top" Width="70" Height="60"></Rectangle>-->
+                                <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="BackButton_Click" Background="Transparent" >
+                                    <Button.Content>
+                                        <fa:FontAwesome Icon="FastBackward"
+                                            Name="backIcon"
+                                            FontSize="30" Foreground="White" />
+                                    </Button.Content>
+                                </Button>
+                            </Canvas>
+                        </Viewbox>
+                    </StackPanel>
+                </StackPanel>
+            </Popup>
+
+            <Popup x:Name="PopUpWidget1" LayoutUpdated="OnLayoutUpdated2">
+                <Popup.ChildTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition />
+                    </TransitionCollection>
+                </Popup.ChildTransitions>
+                <StackPanel x:Name="gdChild1" >
+                    <StackPanel>
+                        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Center" >
+                            <Canvas Width="100" Height="100">
+                                <!--<Rectangle Name="step3Circle" Fill="#33000000" Stroke="#EBEBEB" StrokeThickness="0" VerticalAlignment="top" Width="70" Height="60"></Rectangle>-->
+                                <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="SwitchButton_Click" Background="Transparent"  Visibility="Collapsed">
+                                    <Button.Content>
+                                        <fa:FontAwesome Icon="Exchange"
+                                            Name="exchangeIcon"
+                                            FontSize="30" Foreground="White" />
+                                    </Button.Content>
+                                </Button>
+                            </Canvas>
+                        </Viewbox>
+                    </StackPanel>
+                </StackPanel>
+            </Popup>
+            <StackPanel  HorizontalAlignment="Stretch" >
+                <Grid  x:Name="combinedimg">
+
+                    <CaptureElement Name="PreviewControl"  Width="1280" Height="775"  Stretch="UniformToFill" Margin="0,0,0,0"/>
+                    
+                    <Image x:Name="imagePreview"   Stretch="Uniform"  Margin="0,0,0,0" Visibility="Visible" />
+                    
+                    <Image x:Name="BackimagePreview" Source="Assets/Back1280x720.png" Stretch="Uniform" Margin="0,0,0,250"  Visibility="Visible"/>
+
+                   
+                    <Grid>
+                        <Button Name="StartIcon" HorizontalAlignment="Center" VerticalAlignment="Center" Click="StartButton_Click" Background="Transparent" Margin="0,425,0,0">
+                            <Button.Content>
+                                <fa:FontAwesome Icon="PowerOff"
+                                            Name="Starticon"
+                                            FontSize="30" Foreground="White" />
+                            </Button.Content>
+                        </Button>
+                        <Button Name="switchIcon" HorizontalAlignment="Center" VerticalAlignment="Center" Click="SwitchButton_Click" Background="Transparent"  Margin="150,425,0,0" Visibility="Collapsed">
+                            <Button.Content>
+                                <fa:FontAwesome Icon="Exchange"
+                                            Name="Switchicon"
+                                            FontSize="30" Foreground="White" />
+                            </Button.Content>
+                        </Button>
+                        <Button Name="cameraIcon" HorizontalAlignment="Center" VerticalAlignment="Center" Click="CameraButton_Click" Background="Transparent"  Margin="0,425,0,0" Visibility="Collapsed">
+                            <Button.Content>
+                                <fa:FontAwesome Icon="Camera"
+                                            Name="Cameraicon"
+                                            FontSize="30" Foreground="White" />
+                            </Button.Content>
+                        </Button>
+                        <Button Name="BackIcon" HorizontalAlignment="Center" VerticalAlignment="Center" Click="BackButton_Click" Background="Transparent"  Margin="0,425,0,0" Visibility="Collapsed" >
+                            <Button.Content>
+                                <fa:FontAwesome Icon="FastBackward"
+                                            Name="Backicon"
+                                            FontSize="30" Foreground="White" />
+                            </Button.Content>
+                        </Button>
+                    </Grid>
+                    
+                </Grid>
+
+            </StackPanel>
+
+            <Image Name="BlendedImage"  Stretch="Uniform" Margin="0,0,0,0" Visibility="Collapsed"/>
+        </StackPanel>
+    </Grid>
+</Page>

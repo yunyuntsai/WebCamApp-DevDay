@@ -1,0 +1,1 @@
+C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\WebCamApp.csproj;x86

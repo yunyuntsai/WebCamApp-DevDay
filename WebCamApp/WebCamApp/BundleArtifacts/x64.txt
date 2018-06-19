@@ -1,0 +1,2 @@
+MainPackage=C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\bin\x64\Release\WebCamApp_6.0.0.0_x64.appx
+SymbolPackage=C:\Users\v-altsai\Documents\Visual Studio 2017\Projects\WebCamApp\WebCamApp\AppPackages\WebCamApp_6.0.0.0_Test\WebCamApp_6.0.0.0_x64.appxsym
